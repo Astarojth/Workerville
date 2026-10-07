@@ -1,0 +1,16 @@
+# Episode runner
+PyYAML==6.0.3
+websocket-client==1.9.0
+cryptography==45.0.7
+
+# Judge embeddings
+numpy>=1.26
+einops>=0.8
+transformers==4.57.6
+# Install torch for your platform from https://pytorch.org
+torch>=2.2.0
+
+# Optional: only needed for judge/code/judge/build_finch_endpoint_candidates.py
+# sentence-transformers==3.4.1
+# scikit-learn
+# finch-clust

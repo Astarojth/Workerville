@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+
+# Local credentials and paired OpenClaw identity.
+api.config.yaml
+.openclaw_runtime/
+
+# Generated execution records. Never commit these to the lightweight repo.
+runs/
+logs/
+passed_runs/
+results/judge/
+results/embed_cache/
+
+# Local build/editor artifacts.
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+*.tar.gz
+*.zip

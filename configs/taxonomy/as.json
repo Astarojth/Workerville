@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "updated_at": "2026-03-02",
+  "type": "application_scenario",
+  "single_label": true,
+  "items": [
+    {"id": "AS01", "name": "Information Retrieval and Analysis"},
+    {"id": "AS02", "name": "Data Management"},
+    {"id": "AS03", "name": "Content Creation and Communication"},
+    {"id": "AS04", "name": "Task Automation and Workflow"},
+    {"id": "AS05", "name": "IT System and Network Operations"},
+    {"id": "AS06", "name": "Security and Access Management"},
+    {"id": "AS07", "name": "Software Development and Support"},
+    {"id": "AS08", "name": "Financial Operations"},
+    {"id": "AS09", "name": "Legal Compliance and Audit"},
+    {"id": "AS10", "name": "Health and Wellness Support"},
+    {"id": "AS11", "name": "Planning and Scheduling"},
+    {"id": "AS12", "name": "Device and Robotics Control"}
+  ]
+}

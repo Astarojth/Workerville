@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "updated_at": "2026-03-02",
+  "scope": "Task-level tagging for Workerville_v4",
+  "application_scenario": {
+    "single_label": true,
+    "source_file": "as.json"
+  },
+  "risk_label": {
+    "multi_label": true,
+    "source_file": "rl.json",
+    "endpoint_mapping": ["S1", "S2", "S3"]
+  },
+  "hazard_source": {
+    "single_label": true,
+    "required": true,
+    "allow_mix": false,
+    "selection_scope": "HS1-HS4",
+    "source_file": "hs.json",
+    "usage": "Design and audit metadata only; excluded from main evaluation axis."
+  }
+}
